@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ym</title>
+        <link rel="stylesheet" href="css/chat.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                Uri Takahashi (Support) <!--Supporter name-->
+                <form><label><input id = 'mess-update' type = "checkbox" checked>  Read latest message</label></form>
+            </header>
+            <div id = "messages">
+                <!--first messages that send by the supporter
+                
+                <div class="msg"><div class="not-you">mess1</div></div>
+                <div class="msg"><div class="not-you">mess2</div></div>
+                <div class="msg"><div class="not-you">mess3</div></div>
+                ...
+                <div class="msg"><div class="not-you">messn</div></div>
+                
+                -->
+                <div class="msg"><div class="not-you">Welcome to FSF! I will be your personal assistance for any problem that may occur.</div></div>
+                <div class="msg"><div class="not-you">Please let me know if you have any questions</div></div>
+            </div>
+            <form id = "send-message">
+                <input type = "text" id = "message" autocomplete = "off">
+                <button type="submit"><span><div class = "bx bx-send"></div></span></button>
+            </form>
+        </div>
+
+
+        <script type="module" src = "script/messaging.js"></script>
+        <script type="module" src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js"></script>
+
+
+    </body>
+</html>
