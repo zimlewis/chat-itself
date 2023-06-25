@@ -1,0 +1,25 @@
+#chat-bubble-toggle{
+    position: fixed;
+    width: 5%;
+    right: 1vw;
+    bottom: 10px;
+    transition: 1s;
+    cursor: pointer;
+  }
+  #chat-bubble-toggle:hover{
+    width: 7%;
+  }
+  
+  #chat-bubble{
+    display: block;
+    position: fixed; 
+    bottom: 10px; 
+    left: 100%;
+    border: cyan solid 3px; 
+    z-index: 10; 
+    width: 25vw; 
+    height: 70vh;
+    transition: 1s;
+    border-radius: 10px;
+  }
+  
